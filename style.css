@@ -1,0 +1,13 @@
+:root { --bg: #ffffff; --fg: #18212f; --muted: #586474; --accent: #1a73e8; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #111820; --fg: #f4f7fc; --muted: #b3bfce; --accent: #8ab4f8; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.7 "Noto Sans Thai", Inter, system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 1.6rem; line-height: 1.3; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+a { color: var(--accent); }
+.meta, .lang { color: var(--muted); }
+.todo { background: #fff3cd; color: #5c4400; padding: 0 4px; }
