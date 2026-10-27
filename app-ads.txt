@@ -1,2 +1,2 @@
-# Replace pub-0000000000000000 with the real AdMob publisher id, then publish.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Publisher id from AdMob (Poom, 27 Oct 2026)
+google.com, pub-9137946627290276, DIRECT, f08c47fec0942fa0
